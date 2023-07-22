@@ -50,7 +50,7 @@ router.post("/register", async (req, res) => {
             secure: true,
 
             auth: {
-              user: "tiwaririjul12@gmail.com",
+              user: "rakeshzore17@gmail.com",
               pass: "zyqejjyoswzqgjsh",
             },
           });
@@ -58,7 +58,7 @@ router.post("/register", async (req, res) => {
           //pndwtsjaitmhxhhg
 
           var mailOptions = {
-            from: "tiwaririjul12@gmail.com",
+            from: "rakeshzore17@gmail.com",
             to: email,
             subject: "INSTRUMENTAL SONGS",
             text: ` you are verified please click the above link so that you can visit our website:  http://localhost:3000/login`,
@@ -202,7 +202,7 @@ router.post("/forgotPassword", async (req, res) => {
         secure: true,
 
         auth: {
-          user: "tiwaririjul12@gmail.com",
+          user: "rakeshzore17@gmail.com",
           pass: "zyqejjyoswzqgjsh",
         },
       });
@@ -210,7 +210,7 @@ router.post("/forgotPassword", async (req, res) => {
       //pndwtsjaitmhxhhg
 
       var mailOptions = {
-        from: "tiwaririjul12@gmail.com",
+        from: "rakeshzore17@gmail.com",
         to: validEmail.email,
         subject: "INSTRUMENTAL SONGS",
         text: ` YOUR OTP IS  ${otp}`,
